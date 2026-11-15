@@ -1,0 +1,89 @@
+# ============================================================================
+# Git Ignore Configuration - Lost and Found Management System
+# ============================================================================
+
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+**/application-local.properties
+**/application-local.yml
+local.properties
+credentials/
+secrets/
+*.pem
+*.key
+
+# Java and Maven build output
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# Python cache and environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE, Editors, and Tooling
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# Operating System temporary files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Local standalone binaries and downloaded archives
+tools/
+**/tools/
+*.zip
+*.tar.gz
+*.7z
+test_results.json

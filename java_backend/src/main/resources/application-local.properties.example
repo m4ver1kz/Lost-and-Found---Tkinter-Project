@@ -1,0 +1,17 @@
+# ============================================================================
+# Local Development Database Configuration Template
+# ============================================================================
+# Instructions:
+# 1. Copy this file and rename it to 'application-local.properties' in this directory.
+# 2. Fill in your personal MySQL credentials below.
+# 3. 'application-local.properties' is ignored by Git, ensuring credentials are never committed.
+# ============================================================================
+
+# MySQL Database Host and Port
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=lost_and_found
+
+# MySQL Credentials
+DB_USERNAME=your_mysql_username
+DB_PASSWORD=your_mysql_password
